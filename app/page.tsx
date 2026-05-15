@@ -183,7 +183,7 @@ export default function CrisisLandingPage() {
             <div className="text-5xl font-black mb-2">$750</div>
             <div className="bg-violet-600 text-white text-xs font-bold px-3 py-1 rounded-full w-fit mb-8">24H DELIVERY</div>
             
-            <ul className="space-y-4">
+            <ul className="space-y-4 mb-8">
               {[
                 "1 Single Scroll Landing Page",
                 "Headline + Body Copy",
@@ -200,6 +200,10 @@ export default function CrisisLandingPage() {
                 </li>
               ))}
             </ul>
+
+            <a href="https://buy.stripe.com/eVq5kF0K6aNjbYQcZf48001" target="_blank" rel="noopener noreferrer" className="block w-full py-4 rounded-xl font-bold text-center bg-white text-black hover:bg-gray-200 transition-colors mt-auto">
+              Pay $750
+            </a>
           </div>
 
           {/* Card 2 */}
@@ -213,7 +217,7 @@ export default function CrisisLandingPage() {
               Includes everything in Crisis Page +
             </div>
 
-            <ul className="space-y-4">
+            <ul className="space-y-4 mb-8">
               {[
                 "Email Capture Form (Typeform or Custom)",
                 "Lead Notifications to Email"
@@ -226,6 +230,10 @@ export default function CrisisLandingPage() {
                 </li>
               ))}
             </ul>
+
+            <a href="https://buy.stripe.com/5kQ28tfF04oV4wo5wN48000" target="_blank" rel="noopener noreferrer" className="block w-full py-4 rounded-xl font-bold text-center bg-violet-600 text-white hover:bg-violet-700 transition-colors shadow-[0_0_20px_rgba(139,92,246,0.3)] mt-auto">
+              Pay $1,000
+            </a>
           </div>
 
           {/* Card 3 (Urgent) */}
@@ -242,7 +250,11 @@ export default function CrisisLandingPage() {
                 Upgrade any package to same-day delivery.
               </p>
 
-              <Zap className="w-12 h-12 text-amber-400 fill-amber-400" />
+              <Zap className="w-12 h-12 text-amber-400 fill-amber-400 mb-8" />
+              
+              <a href="https://buy.stripe.com/28EeVfboK3kR7IAaR748002" target="_blank" rel="noopener noreferrer" className="block w-full py-4 rounded-xl font-bold text-center bg-amber-400 text-black hover:bg-amber-500 transition-colors mt-auto">
+                Add Urgent Delivery
+              </a>
             </div>
           </div>
 
