@@ -23,9 +23,7 @@ export function Header() {
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
                         <span className="sr-only">Launchbolt</span>
-                        <div className="h-8 w-8 bg-violet-600 rounded flex items-center justify-center text-white font-bold">
-                            LB
-                        </div>
+                        <img src="/launchbolt-logo.jpg" alt="Launchbolt Logo" className="h-8 w-8 rounded-md object-cover" />
                         <span className="font-semibold text-xl tracking-tight text-white">Launchbolt</span>
                     </Link>
                 </div>
@@ -59,9 +57,7 @@ export function Header() {
                     <div className="flex items-center justify-between">
                         <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
                             <span className="sr-only">Launchbolt</span>
-                            <div className="h-8 w-8 bg-violet-600 rounded flex items-center justify-center text-white font-bold">
-                                LB
-                            </div>
+                            <img src="/launchbolt-logo.jpg" alt="Launchbolt Logo" className="h-8 w-8 rounded-md object-cover" />
                             <span className="font-semibold text-xl tracking-tight text-white">Launchbolt</span>
                         </Link>
                         <button

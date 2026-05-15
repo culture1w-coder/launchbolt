@@ -10,9 +10,7 @@ export function Footer() {
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
                         <div className="flex items-center gap-2">
-                            <div className="h-8 w-8 bg-violet-600 rounded flex items-center justify-center text-white font-bold">
-                                LB
-                            </div>
+                            <img src="/launchbolt-logo.jpg" alt="Launchbolt Logo" className="h-8 w-8 rounded-md object-cover" />
                             <span className="font-semibold text-xl tracking-tight text-white">Launchbolt</span>
                         </div>
                         <p className="text-sm leading-6 text-gray-400">
