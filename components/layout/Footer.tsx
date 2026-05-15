@@ -68,7 +68,7 @@ export function Footer() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUZb2UX_ywNvjH98GIDABh8XsdMQ42TKmkIrdE6kWMoECHog/viewform" target="_blank" rel="noopener noreferrer" className="text-sm leading-6 text-violet-400 hover:text-violet-300 font-semibold transition-colors">
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-sm leading-6 text-violet-400 hover:text-violet-300 font-semibold transition-colors">
                                             Complete Intake Form
                                         </a>
                                     </li>

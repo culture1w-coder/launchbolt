@@ -380,7 +380,7 @@ export default function CrisisLandingPage() {
           </div>
 
           <div className="flex-shrink-0">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUZb2UX_ywNvjH98GIDABh8XsdMQ42TKmkIrdE6kWMoECHog/viewform" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-gray-100 transition-colors text-black rounded-full p-2 pr-6 flex items-center gap-4 cursor-pointer group shadow-[0_0_30px_rgba(255,255,255,0.2)]">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-gray-100 transition-colors text-black rounded-full p-2 pr-6 flex items-center gap-4 cursor-pointer group shadow-[0_0_30px_rgba(255,255,255,0.2)]">
                <div className="bg-violet-600 w-12 h-12 rounded-full flex items-center justify-center text-white">
                   <MessageCircle className="w-6 h-6" />
                </div>

@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 const navigation = [
     { name: "Pricing", href: "/#pricing" },
     { name: "How It Works", href: "/#how-it-works" },
-    { name: "Intake", href: "https://docs.google.com/forms/d/e/1FAIpQLSdUZb2UX_ywNvjH98GIDABh8XsdMQ42TKmkIrdE6kWMoECHog/viewform" },
+    { name: "Intake", href: "https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" },
     { name: "Contact", href: "/contact" },
 ]
 
@@ -54,7 +54,7 @@ export function Header() {
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-4">
                     <Button asChild size="sm" className="bg-violet-600 hover:bg-violet-700 text-white font-semibold border-0">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUZb2UX_ywNvjH98GIDABh8XsdMQ42TKmkIrdE6kWMoECHog/viewform" target="_blank" rel="noopener noreferrer">Start Your 24H Build</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Start Your 24H Build</a>
                     </Button>
                 </div>
             </nav>
@@ -108,7 +108,7 @@ export function Header() {
                             </div>
                             <div className="py-6 flex flex-col gap-2">
                                 <Button asChild className="w-full justify-center bg-violet-600 hover:bg-violet-700 text-white font-semibold border-0">
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUZb2UX_ywNvjH98GIDABh8XsdMQ42TKmkIrdE6kWMoECHog/viewform" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>Start Your 24H Build</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>Start Your 24H Build</a>
                                 </Button>
                             </div>
                         </div>
