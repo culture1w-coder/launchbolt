@@ -1,0 +1,171 @@
+Perfect — that screenshot tells us **exactly what stack Antigravity generated** and what you need to do. Nothing is broken.
+
+You’re looking at a **Node / frontend dev server project** (likely Vite / Next / React).
+
+I’ll walk you through this **cleanly and safely**, assuming macOS.
+
+---
+
+## ✅ WHAT THIS MEANS
+
+Antigravity created a **local development web app** that runs on:
+
+```
+http://localhost:3000
+```
+
+You just need to:
+
+1. Be in the **correct folder**
+2. Install dependencies once
+3. Start the dev server
+
+---
+
+## 1️⃣ CONFIRM YOU’RE IN THE RIGHT DIRECTORY
+
+Your project path should be:
+
+```
+~/Desktop/federal-office-supplies
+```
+
+Run this exactly:
+
+```bash
+cd ~/Desktop/federal-office-supplies
+```
+
+Confirm:
+
+```bash
+ls
+```
+
+You should see files like:
+
+* `package.json`
+* `src/`
+* `index.html` or `app/`
+* maybe `vite.config.js` or `next.config.js`
+
+If you **do not** see `package.json`, stop — you’re in the wrong folder.
+
+---
+
+## 2️⃣ INSTALL DEPENDENCIES (ONE TIME ONLY)
+
+From inside `federal-office-supplies`:
+
+```bash
+npm install
+```
+
+What this does:
+
+* Downloads all required libraries
+* Creates a `node_modules/` folder
+* Takes ~30–90 seconds
+
+✔ You only do this once.
+
+---
+
+## 3️⃣ START THE DEV SERVER
+
+After install finishes:
+
+```bash
+npm run dev
+```
+
+You should see output similar to:
+
+```
+Local: http://localhost:3000
+```
+
+(or sometimes `http://localhost:5173` — either is fine)
+
+---
+
+## 4️⃣ OPEN THE SITE
+
+Open your browser and go to:
+
+```
+http://localhost:3000
+```
+
+You should now see your **federal micro-purchase website running locally**.
+
+---
+
+## 5️⃣ COMMON ISSUES & FIXES (VERY IMPORTANT)
+
+### ❌ “command not found: npm”
+
+You need Node.js.
+
+Fix:
+
+```bash
+node -v
+```
+
+If not installed:
+
+* Install **Node LTS** from nodejs.org
+* Restart Terminal
+* Re-run steps
+
+---
+
+### ❌ Port already in use
+
+If 3000 is busy, the app will auto-pick another port.
+
+Just open the URL it prints.
+
+---
+
+### ❌ npm install errors
+
+Run:
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
+
+---
+
+## 6️⃣ THIS IS DEV MODE (IMPORTANT CONTEXT)
+
+What you’re running now is:
+
+* Local
+* For testing
+* Not public
+
+Later you’ll:
+
+* Build it
+* Deploy to Netlify / Vercel / Cloudflare
+
+---
+
+## ✅ QUICK CONFIRMATION CHECKLIST
+
+✔ You’re in `Desktop/federal-office-supplies`
+✔ `package.json` exists
+✔ `npm install` completed
+✔ `npm run dev` shows a localhost URL
+
+If all four are true — **you’re good**.
+
+Run B2B site
+
+kahangabar@Kahans-Mac-mini-2 federal-office-supplies % cd /Users/kahangabar/Desktop/cyber-logistics-facilitator && npm run dev
+
+
