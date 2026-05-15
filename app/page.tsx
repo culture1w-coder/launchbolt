@@ -260,6 +260,104 @@ export default function CrisisLandingPage() {
 
         </div>
 
+        {/* AI Launch Add-Ons Divider */}
+        <div className="flex items-center justify-center gap-4 mb-6">
+          <div className="h-px bg-violet-900 flex-1"></div>
+          <h2 className="text-xl md:text-2xl font-bold uppercase tracking-widest text-violet-500 text-center">AI Launch Add-Ons</h2>
+          <div className="h-px bg-violet-900 flex-1"></div>
+        </div>
+
+        <div className="text-center mb-16">
+          <p className="text-gray-400 md:text-lg">Optional upgrades that help your page convert, capture, and promote faster.</p>
+        </div>
+
+        {/* Add-Ons Grid */}
+        <div className="grid md:grid-cols-3 gap-6 lg:gap-8 mb-8">
+          
+          {/* Add-On 1 */}
+          <div className="bg-black border border-violet-500/30 rounded-3xl p-8 relative flex flex-col shadow-[0_0_30px_rgba(139,92,246,0.1)]">
+            <div className="text-violet-400 font-bold tracking-widest text-sm mb-4 uppercase">Copy Boost</div>
+            <div className="text-4xl font-black mb-4">+$200</div>
+            <p className="text-sm text-gray-300 mb-6">Stronger AI-assisted headline, offer copy, CTA, FAQ, and trust section so your page communicates faster and feels sharper.</p>
+            
+            <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-4 border border-gray-800 rounded px-2 py-1 w-fit bg-gray-900/50">Includes</div>
+            <ul className="space-y-3 mb-8">
+              {["Headline rewrite", "Offer positioning", "CTA copy", "FAQ copy", "Trust/authority section copy"].map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-sm text-gray-400">
+                  <CheckCircle2 className="w-4 h-4 text-violet-500 flex-shrink-0 mt-0.5" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            
+            <div className="mt-auto pt-8 border-t border-gray-800/50">
+              <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-3">Best For</div>
+              <p className="text-xs text-gray-500 mb-6">Businesses with rough intake answers or weak messaging.</p>
+              
+              <a href="https://buy.stripe.com/cNifZj8cycVrbYQ3oF48003" target="_blank" rel="noopener noreferrer" className="block w-full py-3 rounded-xl font-bold text-sm text-center bg-violet-600/10 text-violet-400 hover:bg-violet-600 hover:text-white border border-violet-500/30 hover:border-violet-600 transition-colors">
+                Add Copy Boost
+              </a>
+            </div>
+          </div>
+
+          {/* Add-On 2 */}
+          <div className="bg-black border border-violet-500/30 rounded-3xl p-8 relative flex flex-col shadow-[0_0_30px_rgba(139,92,246,0.1)]">
+            <div className="text-violet-400 font-bold tracking-widest text-sm mb-4 uppercase">Lead Capture Automation</div>
+            <div className="text-4xl font-black mb-4">+$500</div>
+            <p className="text-sm text-gray-300 mb-6">Turn your landing page into a simple lead machine. I connect your form so new leads go to your inbox, get logged, and receive an instant auto-reply.</p>
+            
+            <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-4 border border-gray-800 rounded px-2 py-1 w-fit bg-gray-900/50">Includes</div>
+            <ul className="space-y-3 mb-8">
+              {["Lead/contact form setup", "Inbox notification", "Google Sheet lead log", "Auto-reply message", "Test submission before delivery"].map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-sm text-gray-400">
+                  <CheckCircle2 className="w-4 h-4 text-violet-500 flex-shrink-0 mt-0.5" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            
+            <div className="mt-auto pt-8 border-t border-gray-800/50">
+              <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-3">Best For</div>
+              <p className="text-xs text-gray-500 mb-6">Quote requests, bookings, applications, and service inquiries.</p>
+              
+              <a href="https://buy.stripe.com/7sY8wR0K69Jf5AscZf48005" target="_blank" rel="noopener noreferrer" className="block w-full py-3 rounded-xl font-bold text-sm text-center bg-violet-600/10 text-violet-400 hover:bg-violet-600 hover:text-white border border-violet-500/30 hover:border-violet-600 transition-colors">
+                Add Lead Capture
+              </a>
+            </div>
+          </div>
+
+          {/* Add-On 3 */}
+          <div className="bg-black border border-violet-500/30 rounded-3xl p-8 relative flex flex-col shadow-[0_0_30px_rgba(139,92,246,0.1)]">
+            <div className="text-violet-400 font-bold tracking-widest text-sm mb-4 uppercase">Social Launch Pack</div>
+            <div className="text-4xl font-black mb-4">+$300</div>
+            <p className="text-sm text-gray-300 mb-6">Get ready-to-post content that helps you announce and promote your new page without writing from scratch.</p>
+            
+            <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-4 border border-gray-800 rounded px-2 py-1 w-fit bg-gray-900/50">Includes</div>
+            <ul className="space-y-3 mb-8">
+              {["10 social post captions", "5 short hooks", "3 CTA variations", "Platform-ready copy for Instagram, Facebook, LinkedIn, X", "Launch announcement message"].map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-sm text-gray-400">
+                  <CheckCircle2 className="w-4 h-4 text-violet-500 flex-shrink-0 mt-0.5" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            
+            <div className="mt-auto pt-8 border-t border-gray-800/50">
+              <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-3">Best For</div>
+              <p className="text-xs text-gray-500 mb-6">Creators, service businesses, events, offers, and product drops.</p>
+              
+              <a href="https://buy.stripe.com/bJe28t2Se1cJd2U7EV48004" target="_blank" rel="noopener noreferrer" className="block w-full py-3 rounded-xl font-bold text-sm text-center bg-violet-600/10 text-violet-400 hover:bg-violet-600 hover:text-white border border-violet-500/30 hover:border-violet-600 transition-colors">
+                Add Social Pack
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="text-center text-xs text-gray-500 mb-24 max-w-2xl mx-auto">
+          Add-ons are optional and must be selected before the build starts. No post-delivery scope changes are included.
+        </div>
+
         {/* Footer Area */}
         <div className="flex flex-col md:flex-row items-center justify-between border border-violet-500/20 bg-violet-950/20 rounded-3xl p-8 mb-16 gap-8">
           

@@ -31,6 +31,13 @@ export function Footer() {
                                     <li><span className="text-sm leading-6 text-gray-400">Crisis Page + Form — $1,000</span></li>
                                     <li><span className="text-sm leading-6 text-gray-400">Urgent 12H Delivery — +$300</span></li>
                                 </ul>
+                                
+                                <h3 className="text-sm font-semibold leading-6 text-white mt-8">AI Launch Add-Ons</h3>
+                                <ul role="list" className="mt-6 space-y-4">
+                                    <li><span className="text-sm leading-6 text-gray-400">Copy Boost — +$200</span></li>
+                                    <li><span className="text-sm leading-6 text-gray-400">Lead Capture Automation — +$500</span></li>
+                                    <li><span className="text-sm leading-6 text-gray-400">Social Launch Pack — +$300</span></li>
+                                </ul>
                             </div>
                             <div className="mt-10 md:mt-0">
                                 <h3 className="text-sm font-semibold leading-6 text-white">Workflow</h3>
