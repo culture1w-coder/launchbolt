@@ -63,13 +63,14 @@ export function Footer() {
                                 <h3 className="text-sm font-semibold leading-6 text-white">Contact</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     <li>
-                                        <a href="mailto:CULTURE1W@GMAIL.COM" className="text-sm leading-6 text-gray-400 hover:text-white transition-colors">
-                                            CULTURE1W@GMAIL.COM
+                                        {/* TODO: Replace Gmail with domain email when available. */}
+                                        <a href="mailto:launchbot@gmail.com" className="text-sm leading-6 text-gray-400 hover:text-white transition-colors">
+                                            launchbot@gmail.com
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-sm leading-6 text-violet-400 hover:text-violet-300 font-semibold transition-colors">
-                                            Complete Intake Form
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-sm leading-6 text-gray-500 hover:text-gray-300 transition-colors">
+                                            Already paid? <span className="underline decoration-gray-700 underline-offset-4">Complete Intake Form</span>
                                         </a>
                                     </li>
                                 </ul>

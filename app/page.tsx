@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Zap, Target, Smartphone, TrendingUp, Clock, Globe, Code2, Rocket, CheckCircle2, MessageCircle } from "lucide-react";
 
 export default function CrisisLandingPage() {
@@ -22,6 +23,10 @@ export default function CrisisLandingPage() {
           
           {/* Left Column: Copy & List */}
           <div className="max-w-2xl">
+            <div className="bg-violet-600/20 text-violet-300 border border-violet-500/30 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest w-fit mb-8">
+              Limited weekly build slots available.
+            </div>
+
             <h1 className="text-5xl md:text-7xl lg:text-[5rem] font-black leading-[0.95] tracking-tight mb-8">
               ONE PAGE.<br />
               <span className="text-violet-500">24 HOURS.</span><br />
@@ -29,7 +34,7 @@ export default function CrisisLandingPage() {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-16 leading-relaxed max-w-xl">
-              High-converting, mobile-responsive landing pages built in 24 hours for urgent businesses that need <span className="text-violet-400 font-medium">results—fast</span>.
+              For founders, creators, and businesses that need a focused landing page live fast — without calls, revisions, or scope creep.
             </p>
 
             <div className="mb-8">
@@ -96,9 +101,9 @@ export default function CrisisLandingPage() {
                    <div className="absolute inset-0 p-8 flex flex-col justify-center">
                       <h2 className="text-2xl font-bold mb-2">We Solve Your <br/><span className="text-violet-400">Biggest Problem</span></h2>
                       <p className="text-xs text-gray-300 mb-4 max-w-[200px]">A short, powerful statement that shows how you help and why it matters.</p>
-                      <button className="bg-violet-600 text-white text-xs py-2 px-4 rounded w-fit mb-6">Get My Free Quote</button>
+                      <button className="bg-violet-600 text-white text-xs py-2 px-4 rounded w-fit mb-6">Start Build</button>
                       <div className="flex gap-1 text-[8px]">
-                        Trusted by businesses like yours
+                        Built for urgent launches
                       </div>
                    </div>
                    <div className="absolute bottom-0 w-full h-4 bg-gradient-to-b from-gray-300 to-gray-400 border-t border-gray-500 rounded-b-xl flex justify-center items-center">
@@ -121,14 +126,75 @@ export default function CrisisLandingPage() {
                    <div className="relative z-10 p-4 pt-8">
                      <h2 className="text-sm font-bold mb-1 mt-2">We Solve Your <br/><span className="text-violet-400">Biggest Problem</span></h2>
                      <p className="text-[8px] text-gray-300 mb-3">A short, powerful statement that shows how you help and why it matters.</p>
-                     <button className="bg-violet-600 text-white text-[8px] py-1.5 px-3 rounded w-fit mb-3">Get My Free Quote</button>
-                     <div className="text-[6px] text-gray-400">Trusted by businesses</div>
+                     <button className="bg-violet-600 text-white text-[8px] py-1.5 px-3 rounded w-fit mb-3">Start Build</button>
+                     <div className="text-[6px] text-gray-400">Built for urgent launches</div>
                    </div>
                 </div>
               </div>
             </div>
 
           </div>
+        </div>
+
+        {/* Demo Section */}
+        <div className="flex items-center justify-center gap-4 mb-6">
+          <div className="h-px bg-violet-900 flex-1"></div>
+          <h2 className="text-xl md:text-2xl font-bold uppercase tracking-widest text-violet-500 text-center">Recent Demo Builds</h2>
+          <div className="h-px bg-violet-900 flex-1"></div>
+        </div>
+
+        <div className="text-center mb-16">
+          <p className="text-gray-400 md:text-lg max-w-2xl mx-auto">Example landing page styles built for common Launchbolt use cases.</p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6 lg:gap-8 mb-24">
+          {/* Demo 1 */}
+          <Link href="/demo/service-business" className="bg-black border border-gray-800 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(255,255,255,0.02)] flex flex-col group hover:border-violet-500/50 transition-colors">
+            <div className="aspect-[4/3] relative border-b border-gray-800 overflow-hidden">
+               <div className="absolute top-2 right-2 z-10 bg-black/50 backdrop-blur text-gray-400 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Demo Example</div>
+               <img src="/demos/service-business.png" alt="Service Business Demo" className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+            </div>
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-bold text-lg mb-1 group-hover:text-violet-400 transition-colors">Service Business Demo</h3>
+              <p className="text-xs text-violet-400 uppercase tracking-widest font-bold mb-4">Contractor / Local Service</p>
+              <p className="text-sm text-gray-400 mb-6 flex-1">A fast quote-request landing page for service businesses that need calls and inquiries.</p>
+              <div className="text-xs font-semibold text-gray-500 flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5" /> Start Build CTA Style
+              </div>
+            </div>
+          </Link>
+
+          {/* Demo 2 */}
+          <Link href="/demo/creator-offer" className="bg-black border border-gray-800 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(255,255,255,0.02)] flex flex-col group hover:border-violet-500/50 transition-colors">
+            <div className="aspect-[4/3] relative border-b border-gray-800 overflow-hidden">
+               <div className="absolute top-2 right-2 z-10 bg-black/50 backdrop-blur text-gray-400 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Demo Example</div>
+               <img src="/demos/creator-offer.png" alt="Creator Offer Demo" className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+            </div>
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-bold text-lg mb-1 group-hover:text-violet-400 transition-colors">Creator Offer Demo</h3>
+              <p className="text-xs text-violet-400 uppercase tracking-widest font-bold mb-4">Coach / Course / Product</p>
+              <p className="text-sm text-gray-400 mb-6 flex-1">A focused offer page for creators selling programs, cohorts, templates, or workshops.</p>
+              <div className="text-xs font-semibold text-gray-500 flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5" /> Buy Now CTA Style
+              </div>
+            </div>
+          </Link>
+
+          {/* Demo 3 */}
+          <Link href="/demo/event-launch" className="bg-black border border-gray-800 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(255,255,255,0.02)] flex flex-col group hover:border-violet-500/50 transition-colors">
+            <div className="aspect-[4/3] relative border-b border-gray-800 overflow-hidden">
+               <div className="absolute top-2 right-2 z-10 bg-black/50 backdrop-blur text-gray-400 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Demo Example</div>
+               <img src="/demos/event-launch.png" alt="Event Launch Demo" className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+            </div>
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-bold text-lg mb-1 group-hover:text-violet-400 transition-colors">Event Launch Demo</h3>
+              <p className="text-xs text-violet-400 uppercase tracking-widest font-bold mb-4">Event / Workshop</p>
+              <p className="text-sm text-gray-400 mb-6 flex-1">A one-page event page built to explain details and drive signups.</p>
+              <div className="text-xs font-semibold text-gray-500 flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5" /> Register CTA Style
+              </div>
+            </div>
+          </Link>
         </div>
 
         {/* Divider */}
@@ -260,8 +326,27 @@ export default function CrisisLandingPage() {
 
         </div>
 
+        {/* Credibility Block */}
+        <div className="bg-gray-900/50 border border-gray-800 rounded-3xl p-8 md:p-12 mb-24 max-w-4xl mx-auto">
+          <h2 className="text-xl md:text-2xl font-bold uppercase tracking-widest text-violet-500 mb-8 text-center">Why Launchbolt Works</h2>
+          <div className="grid md:grid-cols-2 gap-y-4 gap-x-8">
+            {[
+              "Fixed scope means faster delivery",
+              "Clear pricing means no quote games",
+              "One-page focus keeps the build tight",
+              "Stripe payment + intake keeps the process clean",
+              "Live URL + GitHub repo included"
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 text-sm md:text-base text-gray-300">
+                <CheckCircle2 className="w-5 h-5 text-violet-500 flex-shrink-0 mt-0.5" />
+                <span>{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* AI Launch Add-Ons Divider */}
-        <div className="flex items-center justify-center gap-4 mb-6">
+        <div id="ai-add-ons" className="flex items-center justify-center gap-4 mb-6">
           <div className="h-px bg-violet-900 flex-1"></div>
           <h2 className="text-xl md:text-2xl font-bold uppercase tracking-widest text-violet-500 text-center">AI Launch Add-Ons</h2>
           <div className="h-px bg-violet-900 flex-1"></div>
@@ -379,15 +464,18 @@ export default function CrisisLandingPage() {
             </div>
           </div>
 
-          <div className="flex-shrink-0">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-gray-100 transition-colors text-black rounded-full p-2 pr-6 flex items-center gap-4 cursor-pointer group shadow-[0_0_30px_rgba(255,255,255,0.2)]">
+          <div className="flex-shrink-0 flex flex-col items-center">
+            <a href="https://buy.stripe.com/eVq5kF0K6aNjbYQcZf48001" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-gray-100 transition-colors text-black rounded-full p-2 pr-6 flex items-center gap-4 cursor-pointer group shadow-[0_0_30px_rgba(255,255,255,0.2)] mb-4">
                <div className="bg-violet-600 w-12 h-12 rounded-full flex items-center justify-center text-white">
-                  <MessageCircle className="w-6 h-6" />
+                  <Zap className="w-6 h-6 fill-white" />
                </div>
                <div className="flex flex-col">
-                 <span className="font-black text-lg md:text-xl leading-none">GET YOUR PAGE STARTED</span>
-                 <span className="text-violet-600 font-bold text-xs tracking-wider">SECURE INTAKE FORM</span>
+                 <span className="font-black text-lg md:text-xl leading-none">BUY CRISIS PAGE — $750</span>
+                 <span className="text-violet-600 font-bold text-xs tracking-wider">SECURE STRIPE CHECKOUT</span>
                </div>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-1_kwjgp6cKjvtEkC_cCbgo-I_H_bgs9HmObUMylxdykiWg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors">
+              Already paid? <span className="underline decoration-violet-500 underline-offset-4">Complete Intake Form</span>
             </a>
           </div>
 
